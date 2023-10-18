@@ -26,6 +26,7 @@ p {
   font-family: "Lora", serif;
   color: #d34e24;
   font-size: 1.25rem;
+  font-weight: 400;
   display: block;
 }
 nav ul {

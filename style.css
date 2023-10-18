@@ -167,7 +167,21 @@ footer {
   flex-direction: column;
 }
 .modal-container {
+  width: 85%;
+  color: #fff;
+}
+.modal-container p {
   width: 90%;
+  color: #fff;
+  margin: 0 auto;
+}
+.modal-container ul {
+  text-align: center;
+}
+.modal-container ul li {
+  display: inline;
+  font-size: 0.8125rem;
+  font-family: "Lora", serif;
 }
 .dnb-modal img {
   border-radius: 8px;
@@ -226,5 +240,11 @@ footer {
   }
   .modal-container {
     max-width: 600px;
+  }
+}
+@media (max-width: 360px) {
+  .modal-container ul li {
+    display: block;
+    text-align: left;
   }
 }

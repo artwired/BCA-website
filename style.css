@@ -185,7 +185,8 @@ footer {
   font-family: "Lora", serif;
 }
 .dnb-modal img,
-.subjective-modal img {
+.subjective-modal img,
+.edm-modal img {
   border-radius: 8px;
   max-width: 600px;
 }

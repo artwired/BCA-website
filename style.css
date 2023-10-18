@@ -242,7 +242,7 @@ footer {
     max-width: 600px;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 414px) {
   .modal-container ul li {
     display: block;
     text-align: left;

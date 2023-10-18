@@ -20,7 +20,8 @@
       href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:wght@500;700&family=Open+Sans:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" type="module" defer></script>
+    <link rel="stylesheet" href="style.css" defer />
     <title>Abstract Pen & Ink Art | Brad Cole</title>
   </head>
   <body>
@@ -61,7 +62,9 @@
               </ul>
             </figcaption>
           </figure>
-          <button class="description-btn">Read Description</button>
+          <button class="description-btn" id="dnb-description-btn">
+            Read Description
+          </button>
           <p>
             I have been developing this style of artwork since 1998. It all
             started with the rise in popularity of tribal tattoo art at around
@@ -74,6 +77,11 @@
             artboards to see how it turned out. I loved the results and have
             been trying to expand on my style ever since!
           </p>
+            <img
+              src="/images/scrimba-dnb.jpg"
+              alt="image of abstract pen and ink art in a tribal style with shades of brown and orange and two street dancers camouflaged into the peice. The artwork is framed with nice bright staging with white flowers in a baby blue vase on the left side."
+            />
+          </div>
         </div>
       </section>
       <section class="section-two">
@@ -160,5 +168,12 @@
       </section>
       <footer>&copy; 2023 BradColeArt</footer>
     </main>
+    <div class="modal dnb-modal" id="dnb-modal">
+        <div class="modal-container">
+        <img src="images/scrimba-dnb.jpg" alt="">
+        <p>Title: DNB</p>
+        <p>This piece was inspired by Drum & Bass dancers dancing full tilt. I initially drew the dancers and initially took a loose approach to the rest of the artworks development. Early on I recognized the shape of a lions head coming out so I decided to try and abstractly work that into the full frame of the artboard. I felt like the orange tone lent an especially passionate tone to the overall feel of the piece.</p>
+    </div>
+    </div>
   </body>
 </html>

@@ -128,8 +128,8 @@ figure {
   margin: 0 0 1em;
 }
 figcaption {
-  text-align: center;
   margin-top: 0.5em;
+  text-align: center;
 }
 .section-two {
   background-color: #f28123;
@@ -191,5 +191,8 @@ footer {
   }
   .b-and-w-art-section {
     border-bottom: none;
+  }
+  .section-one figcaption li {
+    display: inline;
   }
 }

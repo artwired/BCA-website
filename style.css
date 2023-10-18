@@ -167,6 +167,7 @@ footer {
   flex-direction: column;
 }
 .modal-container {
+  position: relative;
   width: 85%;
   color: #fff;
 }
@@ -186,6 +187,16 @@ footer {
 .dnb-modal img {
   border-radius: 8px;
   max-width: 600px;
+}
+.modal-close-btn {
+  position: absolute;
+  top: -50px;
+  right: 0px;
+  background-color: #563f1b;
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: #f7f052;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
